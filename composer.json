@@ -1,0 +1,19 @@
+{
+    "name": "elrayn/approval-flow",
+    "description": "Declarative, role-gated state machine for multi-step approval workflows",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Rayhan"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elrayn\\ApprovalFlow\\": "src/"
+        }
+    }
+}
